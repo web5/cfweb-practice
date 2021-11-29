@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowJs": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "outDir": "lib",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": [
+      "node"
+    ],
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  "include": [
+    "src/**/*",
+    "__test__/**/*",
+    "test/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

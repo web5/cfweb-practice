@@ -1,0 +1,29 @@
+{
+  "name": "cfweb-practice",
+  "version": "1.0.0",
+  "description": "javascirpt pratice",
+  "main": "index.js",
+  "author": "web5",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon --watch 'src/**/*.ts' --watch 'test/**/*.ts' --exec ts-node test/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "keywords": [
+    "javascript",
+    "basic"
+  ]
+}
